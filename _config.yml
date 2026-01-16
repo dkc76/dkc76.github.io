@@ -1,0 +1,21 @@
+# Site settings
+title: Tervetuloa sivustolleni
+description: Oma GitHub Pages -sivusto
+author: dkc76
+url: https://dkc76.github.io
+baseurl: ""
+
+# Jekyll settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
